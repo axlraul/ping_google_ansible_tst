@@ -1,3 +1,5 @@
-- hosts: site
+- hosts: 
+  - new_nodes
+  - all
   roles:
   - ping
