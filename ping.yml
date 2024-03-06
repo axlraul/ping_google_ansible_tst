@@ -1,5 +1,5 @@
 - hosts: 
   - new_nodes
-  - all
+  - new_nodes2
   roles:
   - ping
